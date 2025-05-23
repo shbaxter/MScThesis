@@ -7,22 +7,16 @@ Understanding iceberg dynamics from glacial calving is essential for improving k
 
 Relevant Figures Below.
 
-
-<img width="420" alt="Unet_Archi" src="https://github.com/user-attachments/assets/e8ae1849-b47f-47df-8d39-760a7e4cf470" />
-*U-Net architecture used in this thesis.*
+<p align="center"> <img width="600" src="https://github.com/user-attachments/assets/e8ae1849-b47f-47df-8d39-760a7e4cf470" alt="U-Net Architecture"/> </p> <p align="center"><em>U-Net architecture used for iceberg segmentation.</em></p>
 
 
-<img width="1231" alt="Parameters" src="https://github.com/user-attachments/assets/57355b80-5332-4886-9983-0fa6280bc97e" />
-*Parameter tree for ice mass balance (IMB) calculations, associated uncertainties, and role of calving and icebergs.*
+<p align="center"> <img width="800" src="https://github.com/user-attachments/assets/57355b80-5332-4886-9983-0fa6280bc97e" alt="Ice Mass Balance Parameters"/> </p> <p align="center"><em>Parameter tree showing the contribution of calving and icebergs to ice mass balance and uncertainty.</em></p>
 
 
-<img width="410" alt="Detected_Icebergs" src="https://github.com/user-attachments/assets/05a0cdf8-7ca4-4e6a-9f89-e2905353a146" />
-*Detected icebergs by the model on unseen data.*
+<p align="center"> <img width="500" src="https://github.com/user-attachments/assets/56e33a73-ed31-40b4-af47-494d7c637706" alt="Detected Icebergs"/> </p> <p align="center"><em>Example detections of icebergs by the U-Net model on unseen Sentinel-1 imagery.</em></p>
 
 
-![ACC_Geospatial](https://github.com/user-attachments/assets/c11e0b87-ed61-4dd0-b9dc-c5c51ef329bd)
-*Geospatial and temporal plotting of icebergs from predicted model masks and geospatial coords of icebergs extracted from corresponding Sentinel-1 images.*
+<p align="center"> <img width="800" src="https://github.com/user-attachments/assets/6fe2efae-dce6-4818-aad4-c8af4bbd7718" alt="Geospatial and Temporal Plot"/> </p> <p align="center"><em>Temporal and geospatial distribution of detected icebergs across the Amery Ice Shelf region.</em></p>
 
 
-![ACC_Graph](https://github.com/user-attachments/assets/e09d85ab-0762-4f17-ab1f-28c51e2f2c6d)
-*Graph displaying the potential 3-group distribution of icebergs from the Amery Ice Shelf, seperated by ocean currents.*
+<p align="center"> <img width="800" src="https://github.com/user-attachments/assets/e09d85ab-0762-4f17-ab1f-28c51e2f2c6d" alt="Iceberg Grouping by Ocean Currents"/> </p> <p align="center"><em>Icebergs grouped by freeboard size and ocean current influence, suggesting a 3-group distribution model.</em></p>
